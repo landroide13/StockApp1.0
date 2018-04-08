@@ -8,12 +8,14 @@ import {StockService} from './services/stock.service'
 
 import { AppComponent } from './app.component';
 import { StocksComponent } from './components/stocks/stocks.component';
+import { NavComponent } from './components/shared/nav/nav.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    StocksComponent
+    StocksComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
